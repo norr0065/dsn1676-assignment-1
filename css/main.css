@@ -82,17 +82,21 @@ body {
 
 .masthead {
     text-align: center;
-    background-image: transparent;
+    background: transparent url("../images/masthead-bg.png") repeat left center;
 }
 
 .title {
     display: inline-block;
-    background-color:#E7E5D9;
+    background-color: #E7E5D9;
     text-shadow: 2px 2px 0 #6D6E70;  
 }
 
 .star {
-    margin: 0 0 .5em 0 0;
-    width: 1.5em;
+    margin: 0 0 .2em 0 0;
+    width: 1.2em;
     vertical-align: middle;
+}
+
+header {
+    background-color: #E7E5D9;
 }
