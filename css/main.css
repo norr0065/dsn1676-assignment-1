@@ -77,6 +77,13 @@ html {
 body {
   margin: 0;
   padding: 0;
+    background-color: #E7E5D9;
+}
+
+title. {
+    display: inline-block;
+    background-color: #E7E5D9;
+    text-shadow: 2 3px 3px 0 #6D6E70;
 }
 
 
