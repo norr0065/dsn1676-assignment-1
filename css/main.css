@@ -5,78 +5,25 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font: normal 100%/1.5 serif;
-}
-
-h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl, dd, figure,
-blockquote, details, hr,
-fieldset, pre, table {
-  margin: 0 0 1.5rem;
-}
-
-html {
-    font: normal 100%/1.5 "Oswald" sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl, dd, figure,
-blockquote, details, hr,
-fieldset, pre, table {
-  margin: 0 0 1.5rem;
-}
-
-h1, h2, h3, h4, h5, h6,
-.brand-family {
-    font-family:'Abril Fatface', cursive;
-}
-
-p, figcaption, dd, dt, a, label, button,
-.brand-family {
-    font-family:'Abril Fatface', cursive;
-}
-
-html {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
-  -moz-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-}
-
-@media only screen and (min-width: 60em) {
-
-    html {
-        font-size: 110%;
-    }
-}
-
-@media only screen and (min-width: 90em) {
-
-    html {
-        font-size: 120%;
-    }
-}
-
-@media only screen and (min-width: 120em) {
-
-    html {
-        font-size: 130%;
-    }
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+a,
+a:link,
+a:visited {
+    color: #fff;
+}
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: #E7E5D9;
 }
 
@@ -106,10 +53,11 @@ h2 {
 }
 
 .wantedframe {
-    margin: 0 auto;
-    width:100%;
     border-image: url(../images) 25 25 25 25 stretch;
     border-width: 25px 25px 25px 25px;
+    margin: 0 auto;
+    width:100%;
+    
 }
 
 .reward {
@@ -123,6 +71,6 @@ color: white;
 
 .clipart {
     margin-left: 38%;
-    margin-right:38%;
+    margin-right: 38%;
     width: 25%;
 }
