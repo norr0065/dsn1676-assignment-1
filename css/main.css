@@ -100,3 +100,10 @@ body {
 header {
     background-color: #E7E5D9;
 }
+
+.wantedframe {
+    margin: 0 auto;
+    width:100%;
+    border-image: url(../images) 25 25 25 25 stretch;
+    border-width: 25px 25px 25px 25px;
+}
