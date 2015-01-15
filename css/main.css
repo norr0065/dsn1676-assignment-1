@@ -107,3 +107,9 @@ header {
     border-image: url(../images) 25 25 25 25 stretch;
     border-width: 25px 25px 25px 25px;
 }
+
+.clipart {
+    margin-left: 38%;
+    margin-right:38%;
+    width: 25%;
+}
